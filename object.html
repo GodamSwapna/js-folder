@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Object </h1>
+    <script>
+        let number1=require("readline-sync");
+        let num=number1.question("enter a number: ");
+        let newObject={};
+        for (let i=1;i<=num;i++){
+            newObject[i]=i**2
+        }
+        console.log(newObject);
+    </script>
+</body>
+</html>
